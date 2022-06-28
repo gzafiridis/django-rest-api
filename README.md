@@ -11,7 +11,7 @@ For this project, I decided to make some endpoints that would be useful in a str
 - Invoice: A monthly invoice for each user which has a date, description, amount and status (outstanding, paid or void)
 - Invoice Line: Each invoice can have many invoice lines, and each line includes its own description and amount
 
-These are the entities for our basic system. The logic behind them is not airtight of course, as it is just a project for me to practice and learn. 
+These are the entities for our basic system. The logic behind them is not airtight of course, as it is just a project for me to practice and learn. The implemented endpoints allows us to perform CRUD operations on invoices and invoice lines, as well as modifying the credits of a user's membership depending on how many open streams they have (check-in and check-out endpoints).
 
 ## Requirements to run the application
 
