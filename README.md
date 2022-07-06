@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a project that I did to get my feet wet with the Django Framework and create some RESTful API endpoints. The code is documented and I have also written a suite of tests for the various functions of the API. I have used Docker to containerize the created app and Travis for CI. In this README I have instructions on how to run the app with Docker and I have fully documented the API endpoints so that you can test them out!
+This is a project that I did to get my feet wet with the Django Framework and create some RESTful API endpoints. The code is documented and I have also written a suite of tests for the various functions of the API. The database I used is PostgreSQL, I also used Travis for CI and Docker to containerize the created app. In this README I have instructions on how to run the app with Docker and I have fully documented the API endpoints so that you can test them out!
 
 For this project, I decided to make some endpoints that would be useful in a streaming service. The basic entities of our API are:
 
